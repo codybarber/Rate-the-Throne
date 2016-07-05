@@ -1,0 +1,133 @@
+body {
+  background-image: url(batthern.png);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#map {
+  height: 75%;
+  position: absolute;
+  width: 100%;
+  float: left;
+}
+/*
+.rating {
+unicode-bidi: bidi-override;
+direction: rtl;
+text-align: left;
+}
+.rating > span {
+display: inline-block;
+position: relative;
+width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+content: "\2605";
+position: absolute;
+}*/
+
+form {
+  padding: 15px;
+}
+h1 {
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  text-shadow: 3px 3px silver;
+  color: black;
+  font-size: 3em;
+}
+
+.btn {
+  margin: 3px;
+}
+
+.titleBox {
+  height: 10%;
+  position: fixed;
+}
+
+.legend {
+  height: 15%;
+  width: 100%;
+  top: 85%;
+  background-image: url(batthern.png);
+  position: fixed;
+  text-align: center;
+  padding: 10px 0 0 0;
+  overflow: auto;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.3em;
+  color: black;
+}
+
+.placeInfo {
+  background-color: #e6e6e6;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 1em;
+}
+
+.cancel {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-weight: 900;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+#banner {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  height: 70%;
+  width: 70%;
+  border: 30px solid #AAAAAA ;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px #888888 ;
+  background-color: #e6e6e6;
+  text-align: center;
+  overflow: auto;
+}
+#mainContent {
+  /*height: 50%;*/
+}
+#easterEgg {
+  position:  absolute;
+  top: 25%;
+  left: 25%;
+  height: 50%;
+  width: 50%;
+  border: 30px solid gray;
+  border-radius: 15px;
+  z-index: 100;
+  background-color: white;
+  text-align: center;
+}
+#easterEggImage {
+  margin-top: 5px;
+  height:  100%;
+}
+.showIt {
+  visibility: visible;
+}
+.hideIt {
+  visibility: hidden;
+}
+#bannerImg {
+  margin-top: 25px;
+}
+#bannerLogo {
+  font-size: 4em;
+}
+
+#tagline {
+  font-size: 2em;
+  font-family: verdana;
+  font-style: italic;
+}
